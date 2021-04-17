@@ -1,0 +1,38 @@
+{
+  "name": "manga_native",
+  "version": "1.0.0",
+  "description": "Manga reader using Native File System API",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "webpack serve --config webpack.dev.js --progress --profile --content-base src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iHamsterball/manga_native.git"
+  },
+  "contributors": [
+    "Cother",
+    "Lightsing"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/iHamsterball/manga_native/issues"
+  },
+  "homepage": "https://github.com/iHamsterball/manga_native#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@fontsource/major-mono-display": "^4.2.3",
+    "@fontsource/vt323": "^4.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}
